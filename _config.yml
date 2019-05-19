@@ -5,10 +5,10 @@
 # Site
 title: zengyintian
 subtitle: 
-description:
+description: description
 keywords: zengyintian
 author: zengyintian
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -73,12 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:zengyintian/zengyintian.github.io.git
-  branch: gh-pages
-
+  branch: master
